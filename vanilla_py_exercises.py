@@ -29,7 +29,19 @@
 
 # print(len(stringB.strip()))
 
-name = "Lorenzo"    
-name += "Gigi Riva"
+# name = "Lorenzo"    
+# name += "Gigi Riva"
 
-print(name)
+# print(name)
+
+# user_input = int(input('Dammi un Numero di due cifre Intero'))
+# print(user_input)
+# print(type(user_input))
+
+weightKG = float(input("Tuo peso in KG ? Usa il . e non la , !").strip())
+
+heightMT = float(input("Tua altezza in Metri ? Usa il . e non la , !").strip())
+
+BMI = weightKG / heightMT ** 2 
+
+print(BMI)
